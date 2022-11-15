@@ -1,7 +1,7 @@
 const API_KEY = 'b06v019CqDnp3zfHWuiCHv%2B4YciBbxHVgKxobYKJ026vXTsMHu0%2FLSTqcw0Tngi7hetY7t81zAReI%2FWPWPwVXA%3D%3D';
 
 async function getData(){
-    const url= 'http://apis.data.go.kr/B552061/frequentzoneBicycle/getRestFrequentzoneBicycle?ServiceKey=b06v019CqDnp3zfHWuiCHv%2B4YciBbxHVgKxobYKJ026vXTsMHu0%2FLSTqcw0Tngi7hetY7t81zAReI%2FWPWPwVXA%3D%3D&searchYearCd=2015&siDo=11&guGun=560&type=json&numOfRows=100&pageNo=1';
+    const url= 'http://apis.data.go.kr/B552061/frequentzoneBicycle/getRestFrequentzoneBicycle?ServiceKey=b06v019CqDnp3zfHWuiCHv%2B4YciBbxHVgKxobYKJ026vXTsMHu0%2FLSTqcw0Tngi7hetY7t81zAReI%2FWPWPwVXA%3D%3D&searchYearCd=2015&siDo=11&guGun=260&type=json&numOfRows=100&pageNo=1';
     const response = await fetch(url);
     const data = await response.json();
     console.log("data", data);
